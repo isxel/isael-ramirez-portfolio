@@ -1,0 +1,102 @@
+/* Basic Reset */
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #0a0a0a; /* Dark theme background */
+  color: #fff; /* White text */
+  overflow: hidden;
+  position: relative;
+}
+
+/* Title */
+.landing-title {
+  font-size: 4rem;
+  margin: 0;
+  transition: color 0.3s ease-in-out;
+}
+
+.landing-title:hover {
+  color: #3f62bc; /* Color change on hover */
+}
+
+/* Subtitle */
+.landing-subtitle {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #3f62bc;
+  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  width: 23.5ch; /* Adjust this to fit the text */
+}
+
+/* Typing animation */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 24ch;
+  } /* Adjust this to fit the text */
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+/* Button */
+.landing-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid #3f62bc;
+  color: #3f62bc;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-size: 1.1rem;
+}
+
+.landing-button:hover {
+  background-color: #3f62bc;
+  color: #0a0a0a;
+}
+
+/* Optional - Interactive Background */
+.landing-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at center,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
+  z-index: 0;
+}
+
+.landing-container > * {
+  position: relative;
+  z-index: 1;
+}
