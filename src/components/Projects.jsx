@@ -17,12 +17,18 @@ const Projects = () => {
       <h2 className="projects-title">My Projects</h2>
       <div className="projects-grid">
         <div className="project-card">
-          <h3>Project 1</h3>
-          <p>Description of Project 1.</p>
+          <h3>Pluvia</h3>
+          <p>
+            Pluvia is a web application designed to address common challenges
+            faced by users wanting to adopt cloud services
+          </p>
         </div>
         <div className="project-card">
-          <h3>Project 2</h3>
-          <p>Description of Project 2.</p>
+          <h3>Photography Portfolio</h3>
+          <p>
+            A website built to showcase personal photography work and
+            commissioned projects, including a contact feature.
+          </p>
         </div>
       </div>
     </div>
