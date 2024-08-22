@@ -26,9 +26,22 @@ const Projects = () => {
         <div className="project-card">
           <h3>Photography Portfolio</h3>
           <p>
-            A website built to showcase personal photography work and
-            commissioned projects, including a contact feature.
+            A minimalist web portfolio designed to showcase my photography,
+            focusing on an intuitive user experience and responsive design.
+            Built using React and CSS.
           </p>
+          <h3>Design and Visuals</h3>
+          <p>
+            Utilized **Adobe Lightroom** for photo editing, achieving a cohesive
+            look across all images.
+          </p>
+          <p>
+            Focused on optimizing images to balance quality and performance,
+            crucial for a seamless user experience.
+          </p>
+          <h3>Techonology Stack:</h3>
+          <p>Frontend: React, JavaScript, CSS, Vite</p>
+          <p>Design: Adobe Photoshop, Adobe Lightroom</p>
         </div>
       </div>
     </div>
