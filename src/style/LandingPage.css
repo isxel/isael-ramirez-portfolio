@@ -1,11 +1,13 @@
-/* Basic Reset */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 body,
 html,
 #root {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Silkscreen", sans-serif; */
+  font-family: "Space Mono", monospace;
 }
 
 .landing-container {
