@@ -10,11 +10,11 @@ const landingPage = () => {
         className="landing-button"
         onClick={() =>
           document
-            .getElementById("projects")
+            .getElementById("aboutMe")
             .scrollIntoView({ behavior: "smooth" })
         }
       >
-        Explore Portfolio
+        Explore More
       </button>
     </div>
   );

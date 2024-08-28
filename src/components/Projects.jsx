@@ -22,6 +22,10 @@ const Projects = () => {
             Pluvia is a web application designed to address common challenges
             faced by users wanting to adopt cloud services
           </p>
+          <h3>Technology Stack:</h3>
+          <p>
+            Frontend: React, Bootstrap, Figma, CSS, Typescript, Adobe Photoshop
+          </p>
         </div>
         <div className="project-card">
           <h3>Photography Portfolio</h3>
@@ -40,7 +44,7 @@ const Projects = () => {
             crucial for a seamless user experience.
           </p>
           <h3>Techonology Stack:</h3>
-          <p>Frontend: React, JavaScript, CSS, Vite</p>
+          <p>Frontend: React, JavaScript, CSS, JavaScript</p>
           <p>Design: Adobe Photoshop, Adobe Lightroom</p>
         </div>
       </div>

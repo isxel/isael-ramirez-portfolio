@@ -16,14 +16,13 @@
     align-items: flex-start; /* Align items at the start of the flex container */
     padding: 64px;
     gap: 32px;
+    height: 100vh;
   }
 }
 
 .about-image img {
-  width: 100%;
-  max-width: 1000px;
+  width: auto;
   height: auto;
-  border-radius: 10px;
   margin-bottom: 16px; /* Add some space below the image for small screens */
 }
 
