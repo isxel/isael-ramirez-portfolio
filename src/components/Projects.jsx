@@ -1,6 +1,7 @@
 import React from "react";
 import { useInView } from "react-intersection-observer";
 import "../style/Projects.css";
+import driveisxSite from "../assets/driveisx-site.png";
 
 const Projects = () => {
   const { ref, inView } = useInView({
@@ -46,6 +47,9 @@ const Projects = () => {
           <h3>Techonology Stack:</h3>
           <p>Frontend: React, JavaScript, CSS, JavaScript</p>
           <p>Design: Adobe Photoshop, Adobe Lightroom</p>
+          <div className="site-images">
+            <img src={driveisxSite} alt="Photography portfolio" />
+          </div>
         </div>
       </div>
     </div>

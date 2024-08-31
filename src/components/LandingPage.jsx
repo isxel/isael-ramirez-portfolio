@@ -10,7 +10,7 @@ const landingPage = () => {
         className="landing-button"
         onClick={() =>
           document
-            .getElementById("aboutMe")
+            .getElementById("about")
             .scrollIntoView({ behavior: "smooth" })
         }
       >

@@ -1,12 +1,14 @@
 /* src/styles/About.css */
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .about-container {
-  background: #1a1a1a;
+  background: #ffffff;
   display: flex;
   flex-direction: column; /* Stack items on top of each other for smaller screens */
   align-items: center; /* Center align items on small screens */
   padding: 32px;
   gap: 16px; /* Space between the image and text */
+  /* height: 100vh; */
 }
 
 /* Adjust layout for larger screens */
@@ -21,19 +23,24 @@
 }
 
 .about-image img {
-  width: auto;
+  max-width: 100%;
   height: auto;
-  margin-bottom: 16px; /* Add some space below the image for small screens */
+  flex: 1;
 }
 
 /* Text container */
 .about-text {
-  color: white;
+  color: rgb(0, 0, 0);
   max-width: 100%;
   display: flex;
   flex-direction: column; /* Stack h2 and p vertically */
   justify-content: flex-start; /* Align text to the top of the container */
   text-align: center; /* Center-align text for small screens */
+  font-family: "space mono", monospace;
+}
+.about-subtitle {
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
 
 /* Adjust text alignment for larger screens */
@@ -47,14 +54,14 @@
 .about-headings h2 {
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
-  margin-bottom: 1rem;
-  color: white;
+  /* margin-bottom: 1rem; */
+  color: rgb(0, 0, 0);
 }
 
 p {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: normal;
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 1rem;
 }

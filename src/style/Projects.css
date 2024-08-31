@@ -2,7 +2,7 @@
 
 .projects-container {
   padding: 50px 20px;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   color: #fff;
   text-align: center;
 }
@@ -15,16 +15,22 @@
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-card {
-  background-color: #333;
+  background-color: #bbbbbb;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease-in-out;
+  max-width: 75%;
+  align-items: center;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .project-card:hover {
@@ -44,4 +50,10 @@
 .projects-container.fade-in {
   opacity: 1;
   transform: translateY(0);
+}
+
+.site-images {
+  display: block;
+  width: 1px;
+  height: 2px;
 }

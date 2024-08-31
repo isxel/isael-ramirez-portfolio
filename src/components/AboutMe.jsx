@@ -9,34 +9,26 @@ const AboutMe = () => {
         <img src={meImage} alt="Isael Ramirez" />
       </div>
       <div className="about-text">
-        <h2 className="about-headings">About Me</h2>
-        <p>
-          Hello, I'm Isael Ramirez, a recent graduate with a degree in Computer
-          Science based in Austin, Texas. My passion for cars and the vibrant
-          culture surrounding them has been a significant part of my life. I
-          cherish the connections, joy, and memories that come from being
-          immersed in the automotive world.
-        </p>
-        <p>
-          Growing up, I was surrounded by Japanese cars, especially the Acura
-          Integra, which sparked my love for automobiles. Currently, I drive a
-          1990 Mazda Miata, a car I've enjoyed immensely for the better part of
-          two years. The Miata has not only been a joy to drive but also a
-          canvas for my automotive creativity and passion.
-        </p>
-        <p>
-          Photography has allowed me to capture these moments and share them
-          with others. For many, cars are more than just a mode of
-          transportation—they are a form of self-expression. I take great pride
-          in capturing the effort and creativity people pour into their
-          vehicles, preserving the essence of their individuality through my
-          camera lens.
-        </p>
-        <h2>My Tools</h2>
-        <p>
-          I use a Sony a6000 for my automotive photography. I also use Adobe
-          Lightroom and Photoshop to edit my photos, ensuring that each image is
-          a true reflection of the car and the owner's vision.
+        <h1 className="about-headings">About Me</h1>
+        <p className="about-subtitle">
+          Hello! My name is Isael Ramirez, and I’m an aspiring front-end
+          developer with a passion for creating visually stunning and
+          user-friendly websites. I recently graduated with a degree in Computer
+          Science, where I honed my skills in JavaScript, React, and design
+          principles. I’m particularly enthusiastic about combining my technical
+          skills with my creative side. Whether it’s crafting a sleek portfolio
+          or bringing an engaging web application to life, I thrive on turning
+          ideas into reality. When I’m not coding, you can find me exploring my
+          love for photography, capturing moments that inspire my design work. I
+          also enjoy diving into Photoshop and Lightroom, where I apply my eye
+          for detail to create visually compelling images. These skills often
+          complement my web development projects, allowing me to bring a unique,
+          artistic touch to my work. Looking ahead, I’m excited to continue
+          growing as a front-end developer, with the goal of working on projects
+          that push the boundaries of web design. I’m always open to new
+          challenges and opportunities to collaborate with others who share my
+          passion for innovation and creativity. Feel free to reach out—I’d love
+          to connect!
         </p>
       </div>
     </div>
