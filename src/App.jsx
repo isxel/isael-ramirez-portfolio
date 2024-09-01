@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import Proj from "./components/Proj";
 import About from "./components/About";
+import Footer from "./components/Footer";
 import "./style/App.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <LandingPage />
       <About />
       <Proj />
+      <Footer />
     </div>
   );
 }

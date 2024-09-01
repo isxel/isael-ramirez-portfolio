@@ -5,38 +5,37 @@ import me from "../assets/me.png";
 const About = () => {
   return (
     <div className="about-container" id="about">
-      <h1 className="about-title">About Me</h1>
+      <h1 className="about-title">
+        Aspiring Front-End Developer with a passion for Creative Design and
+        User-Centric Experiences
+      </h1>
 
       <p className="about-description">
-        Hello! My name is Isael Ramirez, and I’m an aspiring front-end developer
-        with a passion for creating visually stunning and user-friendly
-        websites. I recently graduated with a degree in Computer Science, where
-        I honed my skills in JavaScript, React, and design principles. I’m
-        particularly enthusiastic about combining my technical skills with my
-        creative side. Whether it’s crafting a sleek portfolio or bringing an
-        engaging web application to life, I thrive on turning ideas into
-        reality. When I’m not coding, you can find me exploring my love for
-        photography, capturing moments that inspire my design work. I also enjoy
-        diving into Photoshop and Lightroom, where I apply my eye for detail to
-        create visually compelling images. These skills often complement my web
-        development projects, allowing me to bring a unique, artistic touch to
-        my work. Looking ahead, I’m excited to continue growing as a front-end
-        developer, with the goal of working on projects that push the boundaries
-        of web design. I’m always open to new challenges and opportunities to
-        collaborate with others who share my passion for innovation and
-        creativity. Feel free to reach out—I’d love to connect!
+        I'm Isael Ramirez, a recent Computer Science graduate with a strong
+        focus on front-end development and a deep passion for creating visually
+        stunning, user-friendly websites. My journey in tech has been fueled by
+        a love for design, coding, and the powerful intersection between the
+        two. I specialize in JavaScript and React, and I thrive on bringing
+        creative ideas to life through code.
+      </p>
+      <p className="about-description">
+        With a foundation in technical skills and an eye for detail honed
+        through photography, Photoshop, and Lightroom, I bring a unique,
+        artistic perspective to my web development projects. My work is driven
+        by a desire to push the boundaries of web design, delivering engaging,
+        high-quality user experiences.
+      </p>
+      <p className="about-description">
+        As I continue to grow in my career, I'm excited to take on new
+        challenges that allow me to blend creativity and technology, crafting
+        solutions that not only meet but exceed user expectations. I'm eager to
+        collaborate with others who share my enthusiasm for innovation and
+        design, and I'm always open to exploring new opportunities. Let's
+        connect and create something exceptional together!
       </p>
       <div className="about-section">
-        <div className="about-column left">
-          <img src={me} alt="Isael Ramirez" className="about-image" />
-        </div>
-        <div className="about-column right">
-          <h1>Tech stack</h1>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Python</li>
-          </ul>
+        <div className="about-image">
+          <img src={me} alt="self iamge"></img>
         </div>
       </div>
     </div>

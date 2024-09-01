@@ -16,21 +16,27 @@
 .about-title {
   margin-bottom: 10px;
   font-family: Space Mono, monospace;
+  width: 50%;
 }
 
 .about-description {
   margin-top: 0;
-  width: 75%;
+  width: 50%;
   font-size: 2.5vh;
   font-family: Space Mono, monospace;
 }
 
 .about-section {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
   padding: 20px;
+}
+
+.about-image {
+  max-width: 20%;
+  height: auto;
 }
 
 .about-column {
@@ -44,8 +50,4 @@
 }
 .right {
   max-width: 50%;
-}
-.about-image {
-  max-width: 20%;
-  height: auto;
 }
