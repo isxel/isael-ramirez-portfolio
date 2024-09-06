@@ -2,6 +2,7 @@
   "name": "isaelramirez-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://isxel.github.io/isael-ramirez-portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
