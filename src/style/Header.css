@@ -1,0 +1,16 @@
+.header {
+  padding: 10px 7px;
+  color: #000000;
+  text-align: left;
+  position: fixed;
+}
+
+.header-link {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.header-link:hover {
+  color: #ccc;
+}
