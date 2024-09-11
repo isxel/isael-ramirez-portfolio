@@ -18,7 +18,7 @@ import "./style/App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/isael-ramirez-portfolio">
+    <Router basename="/">
       <div className="App">
         <Routes>
           <Route
@@ -56,7 +56,7 @@ function App() {
           />
         </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 export default App;
