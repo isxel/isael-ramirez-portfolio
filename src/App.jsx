@@ -15,10 +15,12 @@ import {
 } from "react-router-dom";
 import Header from "./components/Header";
 import "./style/App.css";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <Router basename="/">
+      <ScrollToTop />
       <div className="App">
         <Routes>
           <Route
