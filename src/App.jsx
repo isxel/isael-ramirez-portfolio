@@ -18,7 +18,7 @@ import "./style/App.css";
 
 function App() {
   return (
-    <Router basename="/isael-ramirez-portfolio">
+    <BrowserRouter basename="/isael-ramirez-portfolio">
       <div className="App">
         <Routes>
           <Route
@@ -56,7 +56,7 @@ function App() {
           />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 export default App;
