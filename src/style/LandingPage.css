@@ -44,7 +44,7 @@ html,
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  width: 23.5ch; /* Adjust this to fit the text */
+  width: 27ch; /* Adjust this to fit the text */
 }
 
 /* Typing animation */
@@ -53,7 +53,7 @@ html,
     width: 0;
   }
   to {
-    width: 24ch;
+    width: 27.5ch;
   } /* Adjust this to fit the text */
 }
 

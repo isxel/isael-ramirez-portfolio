@@ -31,6 +31,12 @@ const Photography = () => {
         this website provides an accessible way for everyone—whether or not they
         use social media—to explore my portfolio and get in touch.
       </p>
+      <h2 className="photography-subtitle">Tech Stack</h2>
+      <p className="photography-technologies">React</p>
+      <p className="photography-technologies">JavaScript</p>
+      <p className="photography-technologies">CSS</p>
+      <p className="photography-technologies">Adobe Photoshop</p>
+      <p className="photography-technologies">Adobe Lightroom</p>
       <a href="https://driveisx.me/" className="site-link">
         Visit Site
       </a>

@@ -18,6 +18,13 @@
   text-align: left;
   font-family: Space Mono, monospace;
 }
+.pluvia-subtitle {
+  width: 50%;
+  font-size: 4.5vh;
+  font-family: Space Mono, monospace;
+  text-align: left;
+  margin-top: 50px;
+}
 
 .pluvia-secondary-description {
   width: 50%;
@@ -25,6 +32,16 @@
   text-align: left;
   font-family: Space Mono, monospace;
   margin-top: 50px;
+}
+
+.pluvia-technologies {
+  width: 50%;
+  font-size: 3vh;
+  text-align: left;
+  font-family: Space Mono, monospace;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 5px;
 }
 
 .pluvia-site-images {

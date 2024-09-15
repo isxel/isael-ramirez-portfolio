@@ -6,6 +6,7 @@ import PluviaFaq from "../assets/pluviaFaq.png";
 import PluviaServiceSelection from "../assets/pluviaServiceSelection.png";
 import PluviaChat from "../assets/pluviaChat.png";
 import PluviaLogin from "../assets/pluviaLogin.png";
+import PluviaStylesheet from "../assets/pluvia-stylesheet.png";
 
 const Pluvia = () => {
   return (
@@ -54,6 +55,13 @@ const Pluvia = () => {
         for cloud services by using a platform that simplifies decision-making,
         helping them understand and utilize cloud resources efficiently.
       </p>
+      <h2 className="pluvia-subtitle">Tech Stack</h2>
+      <p className="pluvia-technologies">React</p>
+      <p className="pluvia-technologies">TypeScript</p>
+      <p className="pluvia-technologies">CSS</p>
+      <p className="pluvia-technologies">Bootstrap</p>
+      <p className="pluvia-technologies">Figma</p>
+
       <div className="pluvia-site-images">
         <img
           src={PluviaHome}
@@ -83,6 +91,11 @@ const Pluvia = () => {
         <img
           src={PluviaLogin}
           alt="Pluvia-login"
+          className="pluvia-website-image"
+        />
+        <img
+          src={PluviaStylesheet}
+          alt="Pluvia stylesheet"
           className="pluvia-website-image"
         />
       </div>

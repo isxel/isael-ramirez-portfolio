@@ -28,6 +28,9 @@
   text-align: left;
 }
 
+.about-subtitle {
+}
+
 .about-section {
   display: flex;
   justify-content: center;
@@ -39,6 +42,12 @@
 .about-image {
   max-width: 20%;
   height: auto;
+}
+
+.self-image {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .about-column {
