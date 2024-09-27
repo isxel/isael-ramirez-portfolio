@@ -37,24 +37,24 @@ html,
 
 /* Subtitle */
 .landing-subtitle {
-  font-size: 1.5rem;
+  font-size: 2vw; /* Responsive font size */
   margin-top: 10px;
   color: #000000;
-  animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+  animation: typing 6s steps(60), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
-  width: 27ch; /* Adjust this to fit the text */
+  max-width: 100%; /* Prevent overflow */
 }
 
 /* Typing animation */
 @keyframes typing {
   from {
-    width: 0;
+    max-width: 0;
   }
   to {
-    width: 27.5ch;
-  } /* Adjust this to fit the text */
+    max-width: 100%;
+  }
 }
 
 @keyframes blink {
