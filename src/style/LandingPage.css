@@ -37,14 +37,22 @@ html,
 
 /* Subtitle */
 .landing-subtitle {
-  font-size: 2vw; /* Responsive font size */
+  font-size: 1.75rem; /* Responsive font size */
   margin-top: 10px;
   color: #000000;
-  animation: typing 6s steps(60), blink 0.5s step-end infinite alternate;
+  animation: typing 4s steps(60), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
   max-width: 100%; /* Prevent overflow */
+}
+
+/* For Smaller Screens (Mobile) */
+@media (max-width: 480px) {
+  .landing-subtitle {
+    font-size: 1.25rem;
+    animation: typing 1.5s steps(40), blink 0.5s step-end infinite alternate;
+  }
 }
 
 /* Typing animation */
