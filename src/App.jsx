@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Pluvia from "./pages/Pluvia";
 import Photography from "./pages/Photography";
+import Liftset from "./pages/Liftset";
 import {
   BrowserRouter as Router,
   Routes,
@@ -50,6 +51,16 @@ function App() {
               <>
                 <Header />
                 <Photography />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/Liftset"
+            element={
+              <>
+                <Header />
+                <Liftset />
                 <Footer />
               </>
             }

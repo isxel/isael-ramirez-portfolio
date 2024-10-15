@@ -3,6 +3,7 @@ import "../style/Proj.css";
 import { Link } from "react-router-dom";
 import PluviaHome from "../assets/pluviaHome.png";
 import DriveIsxSite from "../assets/driveisxSite.png";
+import LiftsetHero from "../assets/liftset-hero.png";
 
 const projects = [
   {
@@ -16,6 +17,12 @@ const projects = [
     description: "Freelance Automotive Photography",
     image: DriveIsxSite,
     link: "/photography", // This should match the route you defined in App.js
+  },
+  {
+    title: "Liftset (In Progress)",
+    description: "Workout Strength Tracker",
+    image: LiftsetHero,
+    link: "/liftset",
   },
 ];
 
