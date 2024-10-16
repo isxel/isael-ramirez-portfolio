@@ -107,8 +107,7 @@ const Liftset = () => {
         The style tile for Liftset features a clean and modern design with a
         focus on usability and functionality. The style tile includes a color
         palette, typography, and UI elements that create a cohesive and visually
-        appealing user experience. The style tile also includes a mobile version
-        to ensure that users can access Liftset on any device.
+        appealing user experience.
       </p>
       <div className="photography-site-images">
         <img src={LiftsetStiletile} alt="styletile" className="website-image" />
