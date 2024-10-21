@@ -113,46 +113,44 @@ const Liftset = () => {
         <img src={LiftsetStiletile} alt="styletile" className="website-image" />
       </div>
       <h2 className="photography-subtitle">UI Design</h2>
-      <div className="photography-site-images">
-        <img src={LiftsetHero} alt="UI Hero" className="website-image" />
-      </div>
-      {/* <Slider {...carouselSettings} className="wireframe-carousel">
+
+      <Slider {...carouselSettings} className="wireframe-carousel">
         <div>
           <img
             src={LiftsetHero}
             alt="Photography portfolio"
-            className="website-image"
+            className="carousel-image"
           />
         </div>
         <div>
           <img
             src={LiftsetUiLogin}
             alt="liftset login"
-            className="website-image"
+            className="carousel-image"
           />
         </div>
         <div>
           <img
             src={LiftsetUiSignup}
             alt="liftset signup"
-            className="website-image"
+            className="carousel-image"
           />
         </div>
         <div>
           <img
             src={LiftsetUiDashboard}
             alt="liftset dashboard"
-            className="website-image"
+            className="carousel-image"
           />
         </div>
         <div>
           <img
             src={LiftsetUiDashextend}
             alt="liftset dashboard extended"
-            className="website-image"
+            className="carousel-image"
           />
         </div>
-      </Slider> */}
+      </Slider>
     </div>
   );
 };
