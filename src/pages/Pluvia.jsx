@@ -45,9 +45,9 @@ const Pluvia = () => {
       </p>
       <p className="project-secondary-description">
         For prototyping and speeding up development, I utilized Figma to create
-        wireframes and Bootstrap for responsive, mobile-friendly design.
-        Pluvia’s user interface remained accessible and visually engaging across
-        all devices, ensuring a professional and polished experience.
+        wireframes and Bootstrap for responsive, user-friendly design. Pluvia’s
+        user interface remained accessible and visually engaging across all
+        devices, ensuring a professional and polished experience.
       </p>
       <p className="project-secondary-description">
         The name Pluvia, meaning "rain" in Latin, symbolizes the connection to
