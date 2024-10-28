@@ -27,8 +27,18 @@
   font-family: Space Mono, monospace;
   text-align: left;
 }
+@media (max-width: 768px) {
+  .about-title,
+  .about-description {
+    width: 75%;
+  }
+}
 
-.about-subtitle {
+@media (max-width: 480px) {
+  .about-title,
+  .about-description {
+    width: 90%;
+  }
 }
 
 .about-section {

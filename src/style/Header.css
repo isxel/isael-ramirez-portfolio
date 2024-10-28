@@ -3,6 +3,7 @@
   color: #000000;
   text-align: left;
   position: fixed;
+  /* background-color: #ffffff; */
 }
 
 .header-link {
@@ -13,4 +14,18 @@
 
 .header-link:hover {
   color: #ccc;
+}
+
+@media (max-width: 768px) {
+  .header {
+    width: 100%;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+    background-color: #ffffff;
+  }
 }

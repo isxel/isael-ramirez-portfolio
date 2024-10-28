@@ -8,40 +8,40 @@ import DriveIsxSite from "../assets/driveisxSite.png";
 
 const Photography = () => {
   return (
-    <div className="photography-container">
-      <h1 className="photography-title">DriveIsx</h1>
-      <p className="photography-description">
+    <div className="project-container">
+      <h1 className="project-title">DriveIsx</h1>
+      <p className="project-description">
         driveisx is a dedicated photography portfolio and client engagement
         platform designed to showcase my passion for automotive photography.
       </p>
-      <p className="photography-secondary-description">
+      <p className="project-secondary-description">
         This website serves as a central hub where I display a curated selection
         of my work, including commissioned projects and personal photoshoots
         from various car events.
       </p>
-      <p className="photography-secondary-description">
+      <p className="project-secondary-description">
         A dedicated section about me offers a glimpse into my background and
         creative journey, helping visitors connect with the person behind the
         lens. For those interested in collaborating or learning more about my
         work, the site features an easy-to-use contact form and direct links to
         my Instagram, where I share even more of my automotive photography.
       </p>
-      <p className="photography-secondary-description">
+      <p className="project-secondary-description">
         With over 100 followers on Instagram and growing interest in my work,
         this website provides an accessible way for everyone—whether or not they
         use social media—to explore my portfolio and get in touch.
       </p>
-      <h2 className="photography-subtitle">Tech Stack</h2>
-      <p className="photography-technologies">React</p>
-      <p className="photography-technologies">JavaScript</p>
-      <p className="photography-technologies">CSS</p>
-      <p className="photography-technologies">Adobe Photoshop</p>
-      <p className="photography-technologies">Adobe Lightroom</p>
+      <h2 className="project-subtitle">Tech Stack</h2>
+      <p className="project-technologies">React</p>
+      <p className="project-technologies">JavaScript</p>
+      <p className="project-technologies">CSS</p>
+      <p className="project-technologies">Adobe Photoshop</p>
+      <p className="project-technologies">Adobe Lightroom</p>
       <a href="https://driveisx.me/" className="site-link">
         Visit Site
       </a>
 
-      <div className="photography-site-images">
+      <div className="project-site-images">
         <img
           src={DriveIsxSite}
           alt="Photography portfolio"
