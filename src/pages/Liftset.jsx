@@ -1,5 +1,4 @@
 import React from "react";
-import "../style/Liftset.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -15,6 +14,7 @@ import LiftsetUiLogin from "../assets/liftset-ui-login.png";
 import LiftsetUiSignup from "../assets/liftset-ui-signup.png";
 import LiftsetUiDashboard from "../assets/liftset-ui-dashboard.png";
 import LiftsetUiDashextend from "../assets/liftset-ui-dashextended.png";
+import LiftsetStylesheet from "../assets/liftset-stylesheet-31.png";
 
 const Liftset = () => {
   const carouselSettings = {
@@ -110,7 +110,11 @@ const Liftset = () => {
         appealing user experience.
       </p>
       <div className="project-site-images">
-        <img src={LiftsetStiletile} alt="styletile" className="website-image" />
+        <img
+          src={LiftsetStylesheet}
+          alt="stylesheet"
+          className="website-image"
+        />
       </div>
       <h2 className="project-subtitle">UI Design</h2>
 
