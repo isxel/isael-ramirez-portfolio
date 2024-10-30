@@ -44,12 +44,3 @@
 .site-link:hover {
   color: #ccc;
 }
-
-.website-image {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px;
-  margin-top: 100px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}

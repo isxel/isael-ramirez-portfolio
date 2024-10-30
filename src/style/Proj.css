@@ -17,6 +17,18 @@
   text-align: center;
 }
 
+@media (max-width: 768px) {
+  .project-card {
+    width: 75%;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    width: 90%;
+  }
+}
+
 .project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);

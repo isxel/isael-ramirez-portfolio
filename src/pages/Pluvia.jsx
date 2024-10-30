@@ -66,37 +66,29 @@ const Pluvia = () => {
         <img
           src={PluviaHome}
           alt="Pluvia home page"
-          className="pluvia-website-image"
+          className="website-image"
         />
         <img
           src={PluviaFeatures}
           alt="Pluvia features"
-          className="pluvia-website-image"
+          className="website-image"
         />
         <img
           src={PluviaFaq}
           alt="Pluvia FAQ and News"
-          className="pluvia-website-image"
+          className="website-image"
         />
         <img
           src={PluviaServiceSelection}
           alt="Pluvia service selection"
-          className="pluvia-website-image"
+          className="website-image"
         />
-        <img
-          src={PluviaChat}
-          alt="Pluvia chatbot"
-          className="pluvia-website-image"
-        />
-        <img
-          src={PluviaLogin}
-          alt="Pluvia-login"
-          className="pluvia-website-image"
-        />
+        <img src={PluviaChat} alt="Pluvia chatbot" className="website-image" />
+        <img src={PluviaLogin} alt="Pluvia-login" className="website-image" />
         <img
           src={PluviaStylesheet}
           alt="Pluvia stylesheet"
-          className="pluvia-website-image"
+          className="website-image"
         />
       </div>
     </div>
