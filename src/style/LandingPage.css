@@ -51,10 +51,28 @@ html,
 @media (max-width: 480px) {
   .landing-subtitle {
     font-size: 1.25rem;
-    animation: typing 1.5s steps(40), blink 0.5s step-end infinite alternate;
+    animation: typing-mobile 2s steps(30),
+      blink 0.5s step-end infinite alternate;
   }
 }
 
+@keyframes typing-desktop {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
+
+@keyframes typing-mobile {
+  from {
+    max-width: 0;
+  }
+  to {
+    max-width: 100%;
+  }
+}
 /* Typing animation */
 @keyframes typing {
   from {
