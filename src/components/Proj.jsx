@@ -20,7 +20,7 @@ const projects = [
     link: "/photography", // This should match the route you defined in App.js
   },
   {
-    title: "Wellrock",
+    title: "Wellrock (In Progress)",
     description: "Reliable Tools for Stoneworkers",
     image: wellrock,
     link: "/wellrock",
