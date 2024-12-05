@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Pluvia from "./pages/Pluvia";
 import Photography from "./pages/Photography";
 import Liftset from "./pages/Liftset";
+import Wellrock from "./pages/wellrock";
 import {
   BrowserRouter as Router,
   Routes,
@@ -51,6 +52,16 @@ function App() {
               <>
                 <Header />
                 <Photography />
+                <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/Wellrock"
+            element={
+              <>
+                <Header />
+                <Wellrock />
                 <Footer />
               </>
             }

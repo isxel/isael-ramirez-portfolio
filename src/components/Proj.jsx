@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import PluviaHome from "../assets/pluviaHome.png";
 import DriveIsxSite from "../assets/driveisxSite.png";
 import LiftsetHero from "../assets/liftset-hero.png";
+import wellrock from "../assets/wellrock-hero.png";
 
 const projects = [
   {
@@ -17,6 +18,12 @@ const projects = [
     description: "Freelance Automotive Photography",
     image: DriveIsxSite,
     link: "/photography", // This should match the route you defined in App.js
+  },
+  {
+    title: "Wellrock",
+    description: "Reliable Tools for Stoneworkers",
+    image: wellrock,
+    link: "/wellrock",
   },
   {
     title: "Liftset (In Progress)",
