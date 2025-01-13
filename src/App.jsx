@@ -7,6 +7,7 @@ import Pluvia from "./pages/Pluvia";
 import Photography from "./pages/Photography";
 import Liftset from "./pages/Liftset";
 import Wellrock from "./pages/wellrock";
+import Sprout from "./pages/Sprout";
 import {
   BrowserRouter as Router,
   Routes,
@@ -31,6 +32,16 @@ function App() {
                 <About />
                 <Proj />
                 <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/sprout"
+            element={
+              <>
+                <Header />
+                <Sprout />
+                <Footer />{" "}
               </>
             }
           />
