@@ -61,6 +61,14 @@ const Sprout = () => {
         data visualization.
       </p>
       <h2 className="project-subtitle">Sprout User Experience</h2>
+      <h3 className="project-secondary-title">Laying the Foundation</h3>
+      <p className="project-secondary-description">
+        This phase involved identifying key user needs and creating a structured
+        user flow, user story, and a set of goals and pain points. These
+        insights served as the backbone for the application's design and
+        functionality, ensuring the solution effectively addressed user
+        challenges.
+      </p>
       <Slider {...carouselSettings} className="wireframe-carousel">
         <div>
           <img src={UserFlow} alt="User Flow" className="carousel-image" />
@@ -74,6 +82,13 @@ const Sprout = () => {
       </Slider>
 
       <h2 className="project-subtitle">Wireframe</h2>
+      <h3 className="project-secondary-title">Visualizing the Framework</h3>
+      <p className="project-secondary-description">
+        Using Figma, I translated the initial user experience concepts into
+        low-fidelity wireframes. These wireframes focused on layout, navigation,
+        and structural organization, providing a clear blueprint for the user
+        interface.
+      </p>
       <Slider {...carouselSettings} className="wireframe-carousel">
         <div>
           <img src={HeroWF} alt="Hero Wireframe" className="carousel-image" />
@@ -98,7 +113,13 @@ const Sprout = () => {
       </Slider>
 
       <h2 className="project-subtitle">Sprout User Interface</h2>
-      <p className="project-secondary-description">Developed utilizing Figma</p>
+      <h3 className="project-secondary-title">Designing the Details</h3>
+      <p className="project-secondary-description">
+        Building on the wireframes, I developed high-fidelity UI mockups in
+        Figma that emphasized a clean, modern aesthetic. The design prioritized
+        visual hierarchy, responsive layouts, and intuitive navigation, ensuring
+        the application was both functional and visually appealing.
+      </p>
       <Slider {...carouselSettings} className="wireframe-carousel">
         <div>
           <img src={HeroUI} alt="Hero UI" className="carousel-image" />
@@ -128,6 +149,14 @@ const Sprout = () => {
       </Slider>
 
       <h2 className="project-subtitle">Implemented Front End</h2>
+      <h3 className="project-secondary-title">Bringing it to Life</h3>
+      <p className="project-secondary-description">
+        The final phase involved transforming the UI designs into a fully
+        functional web application using React.js, JavaScript, and Vite. This
+        step focused on coding dynamic components, ensuring responsive behavior
+        across devices, and integrating interactive features like data
+        visualization.
+      </p>
       <Slider {...carouselSettings} className="wireframe-carousel">
         <div>
           <img src={Hero} alt="Hero" className="carousel-image" />

@@ -1,8 +1,10 @@
 .header {
   padding: 10px 7px;
+  /* width: 100%; */
   color: #000000;
   text-align: left;
   position: fixed;
+  z-index: 1000;
   /* background-color: #ffffff; */
 }
 
