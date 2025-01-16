@@ -16,13 +16,13 @@
 .about-title {
   margin-bottom: 10px;
   font-family: Space Mono, monospace;
-  width: 50%;
+  width: 75%;
   text-align: left;
 }
 
 .about-description {
   margin-top: 0;
-  width: 50%;
+  width: 75%;
   font-size: 2.5vh;
   font-family: Space Mono, monospace;
   text-align: left;
