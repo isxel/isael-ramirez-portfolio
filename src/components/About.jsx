@@ -1,6 +1,16 @@
-import react from "react";
+import React from "react";
 import "../style/About.css";
 import me from "../assets/me.png";
+import {
+  FaReact,
+  FaGithub,
+  FaFigma,
+  FaCss3Alt,
+  FaPython,
+} from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiAdobephotoshop } from "react-icons/si";
+
 // import aboutMe from "../assets/aboutMe.png";
 
 const About = () => {
@@ -41,7 +51,15 @@ const About = () => {
         new opportunities. Let's connect and create something exceptional
         together!
       </p>
-
+      <h1>Tech Stack</h1>
+      <div className="logo-section">
+        <FaReact className="about-logo" />
+        <IoLogoJavascript className="about-logo" />
+        <FaCss3Alt className="about-logo" />
+        <FaGithub className="about-logo" /> <FaFigma className="about-logo" />
+        <FaPython className="about-logo" />
+        <SiAdobephotoshop className="about-logo" />
+      </div>
       <div className="about-section">
         <div className="about-image">
           <img src={me} alt="self iamge" className="self-image"></img>
