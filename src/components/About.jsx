@@ -17,7 +17,7 @@ const About = () => {
   return (
     <div className="about-container" id="about">
       <h1 className="about-title">
-        Aspiring Software Engineer with a passion About Code & Design
+        Aspiring Software Engineer with a passion for Code & Design
       </h1>
 
       <p className="about-description">
