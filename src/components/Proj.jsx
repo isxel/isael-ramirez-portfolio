@@ -44,7 +44,7 @@ const Projects = () => {
   return (
     <div className="projects-container">
       <div className="projects-title">
-        <h1>Projects</h1>
+        <h1 className="skills-title">Projects</h1>
       </div>
       {projects.map((project, index) => (
         <div className="project-card" key={index}>
