@@ -11,12 +11,10 @@
   margin: 0 auto;
 }
 
-/* Layout */
 .about-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* max-width: 1000px; */
   flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
@@ -40,11 +38,9 @@
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Title & Text */
 .about-title {
   font-family: "Space Mono", monospace;
   font-size: 4vh;
-  /* margin-bottom: 15px; */
 }
 
 .about-description {
@@ -54,7 +50,6 @@
   line-height: 1.6;
 }
 
-/* Tech Stack Section */
 .tech-section {
   margin-top: 50px;
   text-align: center;
@@ -78,23 +73,21 @@
   color: #5898ff;
 }
 
-/* Tech Stack Infinite Scroll */
 .tech-stack-container {
   overflow: hidden;
   white-space: nowrap;
   width: 50%;
   position: relative;
   padding: 20px 0;
-  background: #ffffff; /* Light background for contrast */
+  background: #ffffff;
   display: flex;
   justify-content: center;
 }
 
-/* Create seamless scrolling effect */
 .tech-stack-scroll {
   display: flex;
-  gap: 40px; /* Space between icons */
-  width: max-content; /* Ensures smooth looping */
+  gap: 40px;
+  width: max-content;
   animation: scroll-animation 15s linear infinite;
 }
 
@@ -105,31 +98,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-width: 50px; /* Ensures icons are properly spaced */
+  min-width: 50px;
 }
 
-/* Infinite Scroll Animation */
-@keyframes scroll-animation {
-  from {
-    transform: translateX(25%);
-  }
-  to {
-    transform: translateX(75%);
-  }
-}
-
-/* Mobile Responsiveness */
 @media (max-width: 768px) {
   .tech-stack-container {
-    width: 80%; /* Adjust for smaller screens */
+    width: 80%;
   }
 
   .tech-stack-scroll {
-    animation: scroll-animation 12s linear infinite; /* Adjust speed for mobile */
+    animation: scroll-animation 12s linear infinite;
   }
 
   .tech-stack-item {
-    font-size: 2.5rem; /* Adjust icon size for mobile */
+    font-size: 2.5rem;
   }
 
   .about-content {
@@ -146,7 +128,6 @@
   }
 }
 
-/* Contact & Links Section */
 .contact-section {
   /* margin-top: 50px; */
   text-align: center;
@@ -196,9 +177,7 @@
   font-size: 1.5rem;
 }
 
-/* Technical Skills Section */
 .skills-section {
-  /* margin-top: 50px; */
   padding: 40px 20px;
   text-align: center;
   background: #ffffff;
@@ -211,7 +190,6 @@
   color: #000000;
 }
 
-/* Grid Layout */
 .skills-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -221,7 +199,6 @@
   text-align: left;
 }
 
-/* Individual Skill Column */
 .skills-column {
   background: white;
   padding: 20px;
@@ -229,7 +206,6 @@
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Skill Title */
 .skills-column h2 {
   font-size: 1.6rem;
   color: #222;
@@ -238,7 +214,6 @@
   padding-bottom: 5px;
 }
 
-/* Skill Description */
 .skills-column p {
   font-size: 1rem;
   color: #555;
@@ -246,14 +221,12 @@
   margin-bottom: 15px;
 }
 
-/* Skill List */
 .skills-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-/* Individual Skill Item */
 .skill-item {
   display: flex;
   align-items: center;
@@ -262,13 +235,11 @@
   color: #444;
 }
 
-/* Icon Styling */
 .skill-item svg {
   font-size: 1.8rem;
   color: #5898ff;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   .skills-grid {
     grid-template-columns: 1fr;

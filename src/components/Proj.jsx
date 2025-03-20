@@ -12,19 +12,19 @@ const projects = [
     title: "Sprout",
     description: "Personal Finance Dashboard",
     image: sprout,
-    link: "/sprout", // This should match the route you defined in App.js
+    link: "/sprout",
   },
   {
     title: "Pluvia",
     description: "Streamlining Cloud Development",
     image: PluviaHome,
-    link: "/pluvia", // This should match the route you defined in App.js
+    link: "/pluvia",
   },
   {
     title: "DriveIsx",
     description: "Freelance Automotive Photography",
     image: DriveIsxSite,
-    link: "/photography", // This should match the route you defined in App.js
+    link: "/photography",
   },
   {
     title: "Wellrock (In Progress)",

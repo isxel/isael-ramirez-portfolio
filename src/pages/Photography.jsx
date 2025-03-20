@@ -57,11 +57,7 @@ const Photography = () => {
           alt="Photography commission section"
           className="website-image"
         />
-        {/* <img
-          src={PhotographyCommission2}
-          alt="Photography commission section"
-          className="website-image"
-        /> */}
+
         <img
           src={PhotographyContact}
           alt="Photography contact section"

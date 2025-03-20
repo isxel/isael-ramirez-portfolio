@@ -1,6 +1,5 @@
 import React from "react";
 import "../style/About.css";
-import me from "../assets/me.png";
 import aboutMe from "../assets/aboutMe.jpeg";
 import {
   FaReact,
@@ -18,8 +17,6 @@ import { IoLogoJavascript } from "react-icons/io5";
 import { SiAdobephotoshop } from "react-icons/si";
 import { SiAdobelightroom } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
-
-// import aboutMe from "../assets/aboutMe.png";
 
 const techStack = [
   { icon: <FaReact />, name: "React" },
@@ -87,7 +84,6 @@ const About = () => {
         <h1 className="skills-title">Technical Skills</h1>
 
         <div className="skills-grid">
-          {/* Frontend Development */}
           <div className="skills-column">
             <h2>Frontend Development</h2>
             <p>
@@ -111,7 +107,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* MERN Full-Stack Development */}
           <div className="skills-column">
             <h2>MERN Full-Stack Development</h2>
             <p>
@@ -132,7 +127,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Design & Creativity */}
           <div className="skills-column">
             <h2>Design & Creativity</h2>
             <p>
@@ -150,12 +144,11 @@ const About = () => {
             </div>
           </div>
 
-          {/* Tools & Technologies */}
           <div className="skills-column">
             <h2>Tools & Technologies</h2>
             <p>
               I use various tools to improve development workflow, version
-              control, and scripting to automate tasks efficiently.
+              control, and development efficiently.
             </p>
             <div className="skills-list">
               <div className="skill-item">

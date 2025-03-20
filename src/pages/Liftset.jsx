@@ -18,12 +18,12 @@ import LiftsetStylesheet from "../assets/liftset-stylesheet-31.png";
 
 const Liftset = () => {
   const carouselSettings = {
-    dots: true, // Enable dots below the carousel
-    infinite: true, // Infinite loop
-    speed: 500, // Transition speed
-    slidesToShow: 1, // Show one slide at a time
-    slidesToScroll: 1, // Scroll one slide at a time
-    arrows: true, // Enable arrows for navigation
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
   };
   return (
     <div className="project-container">
