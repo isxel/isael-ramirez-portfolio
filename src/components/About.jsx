@@ -34,32 +34,29 @@ const techStack = [
 
 const About = () => {
   return (
-    <div className="about-container" id="about">
-      <div className="about-content">
-        <div className="about-left">
-          <img src={aboutMe} alt="Isael Ramirez" className="self-image"></img>
-        </div>
-        <div className="about-right">
-          <h1 className="about-title">
-            Hi! I'm Isael, an aspiring Software Engineer with a passion for Code
-            & Design
-          </h1>
-          <p className="about-description">
-            For my entire life, I’ve been drawn to both technology and design.
-            Whether it was experimenting with visuals, messing around with code,
-            or creating unique digital experiences, I always found myself
-            fascinated to the intersection of creativity and technology.
-          </p>
-          <p className="about-description">
-            With a background in Computer Science, I specialize in front-end
-            development and UI/UX design, where I get to bring ideas to life
-            through intuitive and engaging user interfaces.
-          </p>
-        </div>
+    <section className="about-vertical-section" id="about">
+      <div className="about-image-container">
+        <img src={aboutMe} alt="Isael Ramirez" className="about-image" />
       </div>
 
-      <div className="contact-section">
-        <div className="contact-links">
+      <div className="about-text">
+        <h1 className="about-heading">
+          Hi! I'm Isael, an aspiring Software Engineer with a passion for Code &
+          Design
+        </h1>
+        <p className="about-paragraph">
+          For my entire life, I’ve been drawn to both technology and design.
+          Whether it was experimenting with visuals, messing around with code,
+          or creating unique digital experiences, I always found myself
+          fascinated by the intersection of creativity and technology.
+        </p>
+        <p className="about-paragraph">
+          With a background in Computer Science, I specialize in front-end
+          development and UI/UX design, where I bring ideas to life through
+          intuitive and engaging interfaces.
+        </p>
+
+        <div className="about-links">
           <a
             href="https://www.linkedin.com/in/isael-ramirez-a4bb32309"
             target="_blank"
@@ -161,7 +158,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

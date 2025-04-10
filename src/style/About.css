@@ -1,5 +1,103 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
+.about-vertical-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+.about-image-container {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  padding: 5px;
+  background: linear-gradient(-45deg, #00f260, #0575e6, #00f260);
+  background-size: 400% 400%;
+  animation: gradientWave 6s ease infinite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+}
+
+.about-text {
+  max-width: 800px;
+}
+
+.about-heading {
+  font-family: "Space Mono", monospace;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.about-paragraph {
+  font-family: "Space Mono", monospace;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 16px;
+  color: #444;
+}
+
+.about-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.about-links a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #1a1a1a;
+  padding: 10px 16px;
+  border-radius: 8px;
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-links a:hover {
+  transform: scale(1.05);
+  color: #e9e9e9;
+}
+
+.about-links svg {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .about-heading {
+    font-size: 1.6rem;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+  }
+
+  .about-image-container {
+    width: 150px;
+    height: 150px;
+  }
+}
+
 .about-container {
   display: flex;
   flex-direction: column;
@@ -250,5 +348,17 @@
   .contact-links {
     flex-direction: column;
     gap: 20px;
+  }
+}
+
+@keyframes gradientWave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
