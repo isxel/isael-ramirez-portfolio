@@ -5,7 +5,7 @@ const landingPage = () => {
   return (
     <div className="landing-container">
       <h1 className="landing-title">Isael Ramirez</h1>
-      <p className="landing-subtitle">Aspiring Software Engineer</p>
+      <p className="landing-subtitle">Business & Technology</p>
       <button
         className="landing-button"
         onClick={() =>

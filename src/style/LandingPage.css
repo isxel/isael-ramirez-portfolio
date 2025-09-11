@@ -44,7 +44,7 @@ html,
   font-size: 1.75rem;
   margin-top: 10px;
   color: #000000;
-  animation: typing 4s steps(60), blink 0.5s step-end infinite alternate;
+  animation: typing 5s steps(80), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;

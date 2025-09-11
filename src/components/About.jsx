@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/About.css";
 import aboutMe from "../assets/aboutMe.jpeg";
+import isael from "../assets/isael.png";
+
 import {
   FaReact,
   FaGithub,
@@ -36,24 +38,23 @@ const About = () => {
   return (
     <section className="about-vertical-section" id="about">
       <div className="about-image-container">
-        <img src={aboutMe} alt="Isael Ramirez" className="about-image" />
+        <img src={isael} alt="Isael Ramirez" className="about-image" />
       </div>
 
       <div className="about-text">
-        <h1 className="about-heading">
-          Hi! I'm Isael, an aspiring Software Engineer with a passion for Code &
-          Design
-        </h1>
+        <h1 className="about-heading">About Me</h1>
         <p className="about-paragraph">
-          For my entire life, I’ve been drawn to both technology and design.
-          Whether it was experimenting with visuals, messing around with code,
-          or creating unique digital experiences, I always found myself
-          fascinated by the intersection of creativity and technology.
+          I’m Isael, a detail-oriented and creative professional with a
+          background in Computer Science and hands-on experience in business
+          operations, marketing, and technology.
         </p>
         <p className="about-paragraph">
-          With a background in Computer Science, I specialize in front-end
-          development and UI/UX design, where I bring ideas to life through
-          intuitive and engaging interfaces.
+          I enjoy blending problem-solving with design-driven thinking — whether
+          it’s building tools that improve workflows, optimizing a brand’s
+          digital presence through SEO and social media, or creating clean,
+          user-focused web projects. My goal is to bring together business
+          strategy and technology to deliver solutions that are both functional
+          and impactful.
         </p>
 
         <div className="about-links">
@@ -78,82 +79,120 @@ const About = () => {
       </div>
 
       <div className="skills-section">
-        <h1 className="skills-title">Technical Skills</h1>
+        <h1 className="skills-title">Skillset</h1>
 
         <div className="skills-grid">
           <div className="skills-column">
-            <h2>Frontend Development</h2>
+            <h2>Frontend Development & UI/UX</h2>
             <p>
               I specialize in front-end development, crafting engaging user
               interfaces with modern web technologies. My focus is on creating
               seamless and responsive designs that enhance user experience.
             </p>
             <div className="skills-list">
+              <div className="skill-item">React & JavaScript (ES6+)</div>
+              <div className="skill-item">HTML5 / CSS3 (Responsive Design)</div>
               <div className="skill-item">
-                <FaReact /> React
+                UI/UX Design (Figma, Accessibility Principles)
+              </div>
+              <div className="skill-item">Component-Based Development</div>
+              <div className="skill-item">Web Performance Optimization</div>
+            </div>
+          </div>
+
+          <div className="skills-column">
+            <h2>Backend & Data</h2>
+            <p>
+              While I lean toward frontend work, I also bring full-stack skills
+              to support data and backend workflows. I’ve worked with databases,
+              APIs, and authentication to deliver complete solutions.
+            </p>
+            <div className="skills-list">
+              <div className="skill-item">Node.js & REST APIs (Postman)</div>
+              <div className="skill-item">MongoDB</div>
+              <div className="skill-item">MySQL</div>
+              <div className="skill-item">Authentication & Data Handling</div>
+              <div className="skill-item">API Integration & Error Handling</div>
+            </div>
+          </div>
+
+          <div className="skills-column">
+            <h2>Business Operations & Strategy</h2>
+            <p>
+              I bring hands-on experience supporting early-stage business growth
+              through structured processes, CRM management, and quoting
+              workflows. My focus is on ensuring accuracy, compliance, and
+              efficiency across operations.
+            </p>
+            <div className="skills-list">
+              <div className="skill-item">CRM: Salesforce & HubSpot</div>
+              <div className="skill-item">Quote-to-Cash (QTC) Workflows</div>
+              <div className="skill-item">Contract & Renewal Support</div>
+              <div className="skill-item">
+                Data Reporting (Excel/Google Sheets)
               </div>
               <div className="skill-item">
-                <IoLogoJavascript /> JavaScript
-              </div>
-              <div className="skill-item">
-                <FaCss3Alt /> CSS & Styling
-              </div>
-              <div className="skill-item">
-                <FaFigma /> UI/UX Design
+                Process Documentation & Improvement
               </div>
             </div>
           </div>
 
           <div className="skills-column">
-            <h2>MERN Full-Stack Development</h2>
+            <h2>Marketing & Growth</h2>
             <p>
-              While I lean towards front-end development, I also work with the
-              MERN stack to build full-stack applications, integrating
-              databases, authentication, and APIs.
+              With a background in SEO optimization and digital content, I help
+              brands improve visibility and credibility online. I’ve created
+              campaigns and strategies that connect with audiences and
+              strengthen brand identity.
             </p>
             <div className="skills-list">
               <div className="skill-item">
-                <FaNodeJs /> Node.js
+                SEO Optimization (on-page, schema/JSON-LD)
               </div>
               <div className="skill-item">
-                <SiMongodb /> MongoDB
+                Social Media Campaigns (Facebook, Instagram)
+              </div>
+              <div className="skill-item">Content Strategy & Blog Planning</div>
+              <div className="skill-item">
+                Campaign Analytics (Bing Webmaster Tools, GA)
               </div>
               <div className="skill-item">
-                <GrMysql /> MySQL
+                Client-Facing Marketing Collateral
               </div>
             </div>
           </div>
-
           <div className="skills-column">
             <h2>Design & Creativity</h2>
             <p>
-              My background in photography and digital design helps me approach
-              software development with an artistic eye. I use industry-standard
-              tools to enhance visual aesthetics.
+              My creative background in photography and digital design gives me
+              a unique perspective on technology. I combine technical expertise
+              with design skills to craft visuals that are both aesthetic and
+              functional.
             </p>
             <div className="skills-list">
+              <div className="skill-item">Adobe Photoshop</div>
+              <div className="skill-item">Adobe Lightroom</div>
+              <div className="skill-item">Canva (Brand Assets & Layouts)</div>
+              <div className="skill-item">Visual Storytelling</div>
               <div className="skill-item">
-                <SiAdobephotoshop /> Adobe Photoshop
-              </div>
-              <div className="skill-item">
-                <SiAdobelightroom /> Adobe Lightroom
+                Creative Editing & Content Design
               </div>
             </div>
           </div>
-
           <div className="skills-column">
-            <h2>Tools & Technologies</h2>
+            <h2>Tools & Collaboration</h2>
             <p>
-              I use various tools to improve development workflow, version
-              control, and development efficiently.
+              I use a variety of tools to manage projects, streamline
+              collaboration, and improve workflows. From version control to
+              project tracking, I integrate tools that keep teams aligned and
+              efficient.
             </p>
             <div className="skills-list">
-              <div className="skill-item">
-                <FaGithub /> GitHub
-              </div>
-              <div className="skill-item">
-                <FaPython /> Python
-              </div>
+              <div className="skill-item">GitHub & Version Control</div>
+              <div className="skill-item">Jira / Agile Collaboration</div>
+              <div className="skill-item">Python (scripting & automation)</div>
+              <div className="skill-item">DevTools for Debugging</div>
+              <div className="skill-item">Workflow Automation</div>
             </div>
           </div>
         </div>
