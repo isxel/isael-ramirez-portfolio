@@ -20,7 +20,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <Router basename="/">
+    <Router basename="/isael-ramirez-portfolio">
       <ScrollToTop />
       <div className="App">
         <Routes>
@@ -87,6 +87,7 @@ function App() {
               </>
             }
           />
+          <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </div>
     </Router>
