@@ -3,12 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Not Found</title>
+    <title>Redirecting…</title>
+    <script>
+      (function () {
+        // --- CONFIG: your repo name (case-sensitive) ---
+        var repo = "isael-ramirez-portfolio";
+
+        // Current full path (no leading slash)
+        var full = window.location.pathname.replace(/^\/+/, "");
+
+        // If the URL starts with "<repo>/" strip it so Router basename can handle it
+        if (full.startsWith(repo + "/")) {
+          full = full.slice(repo.length + 1);
+        }
+
+        // Preserve query + hash
+        var q = window.location.search || "";
+        var h = window.location.hash || "";
+
+        // Send the user to your project index, carrying the intended path in ?p=
+        var target =
+          "/" + repo + "/?p=" + encodeURIComponent("/" + full) + q + h;
+        window.location.replace(target);
+      })();
+    </script>
   </head>
   <body>
-    <script type="text/javascript">
-      // Redirect to index.html to allow React Router to handle the route
-      window.location.replace("/"); // Always redirect to the root
-    </script>
+    Redirecting…
   </body>
 </html>
