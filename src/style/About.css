@@ -290,9 +290,9 @@
 
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr;
   gap: 40px;
-  max-width: 1500px;
+  max-width: 1000px;
   margin: auto;
   text-align: left;
 }
@@ -336,7 +336,7 @@
 
 .skill-item::before {
   content: "•"; /* change to "-" if you prefer a dash */
-  color: #787878; /* bullet color (can match your accent) */
+  color: #5898ff; /* bullet color (can match your accent) */
   font-size: 1rem;
   line-height: 1;
 }
