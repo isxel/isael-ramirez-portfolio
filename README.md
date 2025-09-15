@@ -2,7 +2,7 @@
 
 Welcome to my personal portfolio! This is a showcase of my work as an aspiring **Software Engineer** with a passion for **design and user experience**.  
 
-🚀 **Live Site:** [[isaelramirez.tech](https://https://isaelramirez.tech](https://isxel.github.io/isael-ramirez-portfolio/))  
+🚀 **Live Site:** https://isxel.github.io/isael-ramirez-portfolio/(https://isxel.github.io/isael-ramirez-portfolio/)  
 
 ---
 
