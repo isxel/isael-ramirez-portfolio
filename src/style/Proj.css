@@ -63,3 +63,32 @@
 .projects-title {
   margin-top: 10px;
 }
+
+.experience-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 8px auto 24px;
+  width: 74%;
+  text-align: left;
+}
+
+.experience-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.project-image-container {
+  display: flex; /* puts children side by side */
+  gap: 1rem; /* space between them */
+  justify-content: flex-start; /* or center, if you want them centered */
+  width: 86%;
+  margin: 2rem auto;
+  box-sizing: border-box;
+}
+
+.page-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  display: block;
+}

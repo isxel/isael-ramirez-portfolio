@@ -8,6 +8,7 @@ import Photography from "./pages/Photography";
 import Liftset from "./pages/Liftset";
 import Wellrock from "./pages/wellrock";
 import Sprout from "./pages/Sprout";
+import Wrhs from "./pages/Wrhs";
 import {
   BrowserRouter as Router,
   Routes,
@@ -32,6 +33,16 @@ function App() {
                 <About />
                 <Proj />
                 <Footer />
+              </>
+            }
+          />
+          <Route
+            path="/wrhs"
+            element={
+              <>
+                <Header />
+                <Wrhs />
+                <Footer />{" "}
               </>
             }
           />
