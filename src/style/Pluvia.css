@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .project-title {
   width: 74%;
-  font-size: 10vh;
+  font-size: clamp(32px, 7vw, 78px);
   margin-top: 100px;
+  margin-bottom: 4px;
   text-align: left;
 }
 
@@ -23,13 +24,24 @@
   font-size: 4.5vh;
   font-family: Space Mono, monospace;
   text-align: left;
-  margin-top: 100px;
+  margin-top: 48px;
   margin-bottom: 5px;
+}
+
+.project-subheading {
+  width: 74%;
+  margin-top: 0px;
+  margin-bottom: 64px;
+  font-weight: 300;
+  font-size: clamp(16px, 2.2vw, 22px);
+  line-height: 1.5;
+  color: #636363;
 }
 
 .project-secondary-description {
   width: 74%;
   font-size: 3vh;
+  font-weight: 200;
   text-align: left;
   font-family: Space Mono, monospace;
   margin-top: 5px;
@@ -102,4 +114,127 @@
   margin: 10px;
   margin-top: 100px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+/* Two-column summary */
+.two-col {
+  width: 74%;
+  margin: 12px auto 24px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr; /* text a bit wider */
+  gap: 24px;
+}
+
+.experience-list {
+  width: 74%;
+  text-align: left;
+}
+
+.experience-sublist {
+  width: 100%;
+  text-align: left;
+  margin-top: 4px;
+}
+
+.col {
+  min-width: 0;
+  width: 90%;
+} /* prevents overflow on long captions */
+
+/* Key screenshots stack nicely */
+.key-shots {
+  display: grid;
+  gap: 16px;
+}
+.shot img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 6px 16px;
+}
+.shot figcaption {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 6px;
+}
+
+/* Notes as compact cards */
+.note-cards {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 48px;
+  width: 500px;
+}
+.note-card {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 32px 24px;
+  background: #fafafa;
+}
+.note-card h4 {
+  margin: 0 0 6px;
+  font-size: 0.95rem;
+  color: #444;
+}
+.note-card ul {
+  margin: 0;
+  padding-left: 18px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+/* Before/After grid */
+.gallery {
+  width: 74%;
+  margin: 6px auto 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+.gallery figure {
+  margin: 0;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0 6px 16px;
+}
+.gallery figcaption {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 6px;
+}
+
+.codeblock {
+  margin: 0;
+  padding: 10px 12px;
+  background: #111;
+  color: #e8e8e8;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+/* Mobile */
+@media (max-width: 900px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+/* Responsive tweaks */
+@media (max-width: 900px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+  .note-cards {
+    grid-template-columns: 1fr;
+  }
 }
