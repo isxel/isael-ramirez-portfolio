@@ -223,6 +223,10 @@
   line-height: 1.45;
 }
 
+.project-link {
+  color: #5672c7;
+}
+
 /* Mobile */
 @media (max-width: 900px) {
   .two-col {

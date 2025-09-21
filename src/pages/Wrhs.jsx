@@ -8,6 +8,9 @@ import wrhsAnalytics from "../assets/wrhsAnalytics.jpg";
 import wrhsFacebookPage from "../assets/wrhsFacebookPage.jpg";
 import wrhsFacebookEngagement from "../assets/wrhsFacebookEngagement.jpg";
 import wrhsFacebookAnalytics from "../assets/wrhsFacebookAnalytics.jpg";
+import wrhsCatalog from "../assets/wrhsCatalog.jpg";
+import wrhsHowToUse from "../assets/wrhsHowToUse.jpg";
+import wrhsQuoteGeneration from "../assets/wrhsQuoteGeneration.jpg";
 const Wrhs = () => {
   return (
     <div className="project-container">
@@ -70,7 +73,6 @@ const Wrhs = () => {
       <h3 className="project-secondary-title">What I did</h3>
 
       <div className="two-col">
-        {/* Left: What I did */}
         <div className="col">
           <ul className="experience-sublist">
             <li>
@@ -80,6 +82,16 @@ const Wrhs = () => {
             <li>
               Wrote focused copy using a <br></br>
               <strong>problem → solution → proof → action</strong> flow.
+            </li>
+            <li>
+              <a
+                href="https://www.whomesolutions.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="project-link"
+              >
+                <strong>Live Site</strong>
+              </a>
             </li>
           </ul>
 
@@ -165,9 +177,9 @@ const Wrhs = () => {
           <figure className="shot">
             <img
               src={wrhsAnalytics}
-              alt="Search performance over time (impressions/clicks)"
+              alt="Wix Site performance over time (impressions/clicks)"
             />
-            <figcaption>Search Console / Bing WMT trend</figcaption>
+            <figcaption>Wix Site trend</figcaption>
           </figure>
         </div>
 
@@ -258,7 +270,7 @@ const Wrhs = () => {
           <div className="key-shots">
             <figure className="shot">
               <img src={wrhsFacebookPage} alt="Facebook Page" />
-              <figcaption>Facebook Page</figcaption>
+              <figcaption>Facebook page</figcaption>
             </figure>
             <figure className="shot">
               <img src={wrhsFacebookAnalytics} alt="Facebook Analytics" />
@@ -270,6 +282,85 @@ const Wrhs = () => {
             </figure>
           </div>
         </div>
+      </div>
+      <h2 className="project-subtitle">Internal Quote Generator</h2>
+      <h3 className="project-secondary-title">What I Did</h3>
+      <div className="two-col">
+        <div className="col">
+          <ul className="experience-sublist">
+            <li>
+              Designed a centralized <b>cabinet catalog</b> in Google Sheets as
+              the single source of truth for pricing, models, and categories.
+            </li>
+            <li>
+              Built dropdowns and automation for{" "}
+              <b>project tracking, quote generation, and PDF export</b>,
+              streamlining the sales workflow.
+            </li>
+            <li>
+              Created a clean, branded <b>client-facing quote format</b> (with
+              logo, totals, taxes, and notes) to improve professionalism.
+            </li>
+            <li>
+              Reduced manual errors and shortened quote turnaround time,
+              supporting credibility and faster client response.
+            </li>
+          </ul>
+        </div>
+
+        {/* Right: Key screenshots */}
+        <div className="col">
+          <div className="key-shots">
+            <figure className="shot">
+              <img src={wrhsCatalog} alt="Cabinet Catalog" />
+              <figcaption>Cabinet Catalog Screenshot</figcaption>
+            </figure>
+            <figure className="shot">
+              <img src={wrhsHowToUse} alt="Generator How To Use Page" />
+              <figcaption>Quote Generator How To Use Page</figcaption>
+            </figure>
+            <figure className="shot">
+              <img src={wrhsQuoteGeneration} alt="Quote Generation Example" />
+              <figcaption>Example Of a Generated Quote</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <h2 className="project-subtitle">Key Takeaways</h2>
+      <h3 className="project-secondary-title">What I Learned</h3>
+
+      <div className="project-two-col">
+        <ul className="experience-list">
+          <li>
+            Learned to balance <b>marketing, design, and operations</b> in a
+            real-world small business setting.
+          </li>
+          <li>
+            Gained hands-on experience with{" "}
+            <b>SEO strategy, content planning, and analytics setup</b>.
+          </li>
+          <li>
+            Improved ability to{" "}
+            <b>translate business needs into practical tools</b> like pricing
+            automation and client-facing documents.
+          </li>
+        </ul>
+
+        <ul className="experience-list">
+          <li>
+            Strengthened skills in <b>visual identity design</b> and creating
+            consistent branding across multiple platforms.
+          </li>
+          <li>
+            Learned how to <b>communicate with non-technical stakeholders</b>{" "}
+            and simplify technical solutions.
+          </li>
+          <li>
+            Built confidence in <b>early-stage business environments</b>,
+            preparing me for larger-scale projects.
+          </li>
+        </ul>
       </div>
     </div>
   );
